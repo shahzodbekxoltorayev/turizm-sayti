@@ -1,0 +1,436 @@
+
+//Bulut
+setfillstyle(1,WHITE);
+    arc(237,37,0,190,12);
+    arc(225,50,80,280,14);
+    arc(245,50,210,330,25);
+    arc(260,50,-105,140,22);
+floodfill(237,37,WHITE);
+
+setfillstyle(1,WHITE);
+    arc(437,37,0,190,12);
+    arc(425,50,80,280,14);
+    arc(445,50,210,330,25);
+    arc(460,50,-105,140,22);
+floodfill(437,37,WHITE);
+
+setfillstyle(1,WHITE);
+    arc(637,37,0,190,12);
+    arc(625,50,80,280,14);
+    arc(645,50,210,330,25);
+    arc(660,50,-105,140,22);
+floodfill(637,37,WHITE);
+
+setfillstyle(1,BLUE);
+floodfill(500,5,WHITE);
+
+
+
+//moshina
+setfillstyle(1,LIGHTBLUE);
+    line(25+i,385,25+i,360);
+    line(25+i,360,75+i,360);
+    line(75+i,360,90+i,330);
+    line(90+i,330,180+i,330);
+    line(180+i,330,200+i,360);
+    line(200+i,360,250+i,360);
+    line(250+i,360,250+i,385);
+    line(250+i,385,188+i,385);
+    line(25+i,385,85+i,385);
+    line(125+i,385,150+i,385);
+    arc(105+i,385,0,185,20);
+    arc(170+i,385,0,185,20);
+floodfill(150+i,375,WHITE);
+
+setfillstyle(1,BLUE);
+    line(90+i,360,100+i,340);
+    line(100+i,340,135+i,340);
+    line(135+i,340,135+i,360);
+    line(135+i,360,90+i,360);
+floodfill(125+i,350,WHITE);
+
+setfillstyle(1,BLUE);
+    line(140+i,360,140+i,340);
+    line(140+i,340,175+i,340);
+    line(175+i,340,188+i,360);
+    line(188+i,360,140+i,360);
+floodfill(150+i,350,WHITE);
+
+setfillstyle(1,BROWN);
+    circle(105+i,385,15);
+floodfill(105+i,385,WHITE);
+
+setfillstyle(1,BROWN);
+    circle(170+i,385,15);
+floodfill(170+i,385,WHITE);
+
+
+
+
+//uylar
+setfillstyle(1,BLUE);
+    rectangle(75,250,100,275);
+floodfill(85,260,WHITE);
+
+setfillstyle(1,RED);
+    line(75,250,87,225);
+    line(87,225,100,250);
+    rectangle(75,250,100,275);
+floodfill(85,235,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(82,260,93,275);
+floodfill(85,265,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(100,250,150,275);
+floodfill(125,265,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(450,275,500,325);
+floodfill(475,300,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(460,290,490,325);
+floodfill(470,300,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(500,275,550,325);
+floodfill(530,300,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(225,475,275,525);
+floodfill(250,500,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(235,490,265,525);
+floodfill(250,500,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(275,475,325,525);
+floodfill(300,500,WHITE);
+
+setfillstyle(1,RED);
+    line(87,225,100,250);
+    line(87,225,137,225);
+    line(137,225,150,250);
+    rectangle(100,250,150,275);
+floodfill(125,235,WHITE);
+
+setfillstyle(1,RED);
+    line(475,250,500,275);
+    line(475,250,525,250);
+    line(525,250,550,275);
+    rectangle(500,275,550,325);
+floodfill(525,260,WHITE);
+
+setfillstyle(1,RED);
+    line(450,275,475,250);
+    line(475,250,500,275);
+    rectangle(450,275,500,325);
+floodfill(475,260,WHITE);
+
+setfillstyle(1,RED);
+    line(225,475,250,450);
+    line(250,450,275,475);
+    rectangle(225,475,275,525);
+floodfill(250,460,WHITE);
+
+setfillstyle(1,RED);
+    line(250,450,275,475);
+    line(250,450,300,450);
+    line(300,450,325,475);
+    rectangle(275,475,325,525);
+floodfill(300,460,WHITE);
+//Archalar
+setfillstyle(1,BROWN);
+    rectangle(650,300,675,325);
+floodfill(660,310,WHITE);
+setfillstyle(1,BROWN);
+
+    rectangle(350,300,375,325);
+floodfill(360,310,WHITE);
+setfillstyle(1,BROWN);
+
+
+    rectangle(400,550,425,575);
+floodfill(410,560,WHITE);
+
+setfillstyle(1,BROWN);
+    rectangle(700,600,725,625);
+floodfill(710,610,WHITE);
+
+
+
+
+
+
+
+
+
+
+oxiri///////////////////////////////////////////////
+#include <graphics.h>
+#include <conio.h>
+#include <sstream>
+#include <dos.h>
+int main ()
+{
+    initwindow (1000,700);
+        for(int i=1;i<1000;i++)
+{
+
+setfillstyle(1,GREEN);
+    line(0,100,100,200);
+    line(100,200,200,100);
+    line(200,100,300,200);
+    line(300,200,400,100);
+    line(400,100,500,200);
+    line(500,200,600,100);
+    line(600,100,700,200);
+    line(700,200,800,100);
+    line(800,100,900,200);
+    line(900,200,1000,100);
+floodfill(150,150,WHITE);
+    line(0,400,1000,400);
+//uylar
+setfillstyle(1,BLUE);
+    rectangle(75,250,100,275);
+floodfill(85,260,WHITE);
+
+setfillstyle(1,RED);
+    line(75,250,87,225);
+    line(87,225,100,250);
+    rectangle(75,250,100,275);
+floodfill(85,235,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(82,260,93,275);
+floodfill(85,265,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(100,250,150,275);
+floodfill(125,265,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(450,275,500,325);
+floodfill(475,300,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(460,290,490,325);
+floodfill(470,300,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(500,275,550,325);
+floodfill(530,300,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(225,475,275,525);
+floodfill(250,500,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(235,490,265,525);
+floodfill(250,500,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(275,475,325,525);
+floodfill(300,500,WHITE);
+
+setfillstyle(1,RED);
+    line(87,225,100,250);
+    line(87,225,137,225);
+    line(137,225,150,250);
+    rectangle(100,250,150,275);
+floodfill(125,235,WHITE);
+
+setfillstyle(1,RED);
+    line(475,250,500,275);
+    line(475,250,525,250);
+    line(525,250,550,275);
+    rectangle(500,275,550,325);
+floodfill(525,260,WHITE);
+
+setfillstyle(1,RED);
+    line(450,275,475,250);
+    line(475,250,500,275);
+    rectangle(450,275,500,325);
+floodfill(475,260,WHITE);
+
+setfillstyle(1,RED);
+    line(225,475,250,450);
+    line(250,450,275,475);
+    rectangle(225,475,275,525);
+floodfill(250,460,WHITE);
+
+setfillstyle(1,RED);
+    line(250,450,275,475);
+    line(250,450,300,450);
+    line(300,450,325,475);
+    rectangle(275,475,325,525);
+floodfill(300,460,WHITE);
+
+
+
+//Archalar
+setfillstyle(1,BROWN);
+    rectangle(650,300,675,325);
+floodfill(660,310,WHITE);
+setfillstyle(1,BROWN);
+
+    rectangle(350,300,375,325);
+floodfill(360,310,WHITE);
+setfillstyle(1,BROWN);
+
+
+    rectangle(400,550,425,575);
+floodfill(410,560,WHITE);
+
+setfillstyle(1,BROWN);
+    rectangle(700,600,725,625);
+floodfill(710,610,WHITE);
+
+setfillstyle(1,GREEN);
+    line(635,300,690,300);
+    line(635,300,650,275);
+    line(650,275,635,275);
+    line(635,275,650,260);
+    line(650,260,635,260);
+    line(635,260,662,230);
+    line(662,230,690,260);
+    line(690,260,675,260);
+    line(675,260,690,275);
+    line(690,275,675,275);
+    line(675,275,690,300);
+floodfill(660,275,WHITE);
+
+setfillstyle(1,GREEN);
+    line(335,300,390,300);
+    line(335,300,350,275);
+    line(350,275,335,275);
+    line(335,275,350,260);
+    line(350,260,335,260);
+    line(335,260,362,230);
+    line(362,230,390,260);
+    line(390,260,375,260);
+    line(375,260,390,275);
+    line(390,275,375,275);
+    line(375,275,390,300);
+floodfill(360,275,WHITE);
+
+setfillstyle(1,GREEN);
+    line(385,550,440,550);
+    line(385,550,400,525);
+    line(400,525,385,525);
+    line(385,525,400,510);
+    line(400,510,385,510);
+    line(385,510,412,480);
+    line(412,480,440,510);
+    line(440,510,425,510);
+    line(425,510,440,525);
+    line(440,525,425,525);
+    line(425,525,440,550);
+floodfill(415,525,WHITE);
+
+setfillstyle(1,GREEN);
+    line(685,600,740,600);
+    line(685,600,700,575);
+    line(700,575,685,575);
+    line(685,575,700,560);
+    line(700,560,685,560);
+    line(685,560,712,530);
+    line(712,530,740,560);
+    line(740,560,725,560);
+    line(725,560,740,575);
+    line(740,575,725,575);
+    line(725,575,740,600);
+floodfill(715,575,WHITE);
+//quyosh
+setfillstyle(1,YELLOW);
+circle(305,105,30);
+//arc(365,100,0,200,45);
+floodfill(305,105,WHITE);
+cleardevice();
+}
+getch ();
+closegraph();
+}
+
+
+
+
+
+
+//uylar
+
+
+setfillstyle(1,RED);
+    line(75,250,87,225);
+    line(87,225,100,250);
+    rectangle(75,250,100,275);
+floodfill(85,235,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(82,260,93,275);
+floodfill(85,265,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(100,250,150,275);
+floodfill(125,265,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(450,275,500,325);
+floodfill(475,300,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(460,290,490,325);
+floodfill(470,300,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(500,275,550,325);
+floodfill(530,300,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(225,475,275,525);
+floodfill(250,500,WHITE);
+
+setfillstyle(1,LIGHTRED);
+    rectangle(235,490,265,525);
+floodfill(250,500,WHITE);
+
+setfillstyle(1,MAGENTA);
+    rectangle(275,475,325,525);
+floodfill(300,500,WHITE);
+
+setfillstyle(1,RED);
+    line(87,225,100,250);
+    line(87,225,137,225);
+    line(137,225,150,250);
+    rectangle(100,250,150,275);
+floodfill(125,235,WHITE);
+
+setfillstyle(1,RED);
+    line(475,250,500,275);
+    line(475,250,525,250);
+    line(525,250,550,275);
+    rectangle(500,275,550,325);
+floodfill(525,260,WHITE);
+
+setfillstyle(1,RED);
+    line(450,275,475,250);
+    line(475,250,500,275);
+    rectangle(450,275,500,325);
+floodfill(475,260,WHITE);
+
+setfillstyle(1,RED);
+    line(225,475,250,450);
+    line(250,450,275,475);
+    rectangle(225,475,275,525);
+floodfill(250,460,WHITE);
+
+setfillstyle(1,RED);
+    line(250,450,275,475);
+    line(250,450,300,450);
+    line(300,450,325,475);
+    rectangle(275,475,325,525);
+floodfill(300,460,WHITE);
+
