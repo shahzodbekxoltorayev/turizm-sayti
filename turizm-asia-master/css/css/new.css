@@ -1,63 +1,4 @@
-@media screen and (max-width: 1200px) {
-  .tours-col3{
-    display: none;
-  }
-  .tours-col9{
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  .tour-show2{
-    margin-left:15px;
-  }
-}
-@media screen and (max-width: 768px) {
-#appp img{
-  background-size: cover;
-  width: 0px;
-}
-
-.country-wrapp .header{
-  /*margin-top: -200px;*/
-  margin-bottom: 50px;
-  padding-bottom: 100px;
-  text-align: center;
-  margin: 0 auto;
-}
-.country-wrapp p{
-  background: transparent;
-}
-.content{
-  height: 200px;
-}
-.tab-wrap{
-   top: -40px;
-   margin-bottom: 150px;
-}
-footer{
-  line-height: 40px;
-}
-.ftco-footer-widget .block-23 .text{
-  text-align: center;
-  margin: 0 auto;
-}
-
-}
-@media screen and (max-width:576px){
- 
-}
-
-@media screen and (max-width: 480px) {
- .country-wrapp{
- /*margin-top: -320px;*/
-}
-.tab-wrap{
-  width: 100%
-   top: -240px;
-   margin-bottom: 150px;
-}
-}
-* {
+ * {
       font-family:arial; 
       box-sizing: border-box;
     }
@@ -274,6 +215,7 @@ div#slider figure {
   z-index: -999;
   bottom: -152px;
   text-align: inherit; 
+
 }
 .tours-new2{
   background:url(../../images/registon.jpg);
@@ -791,4 +733,127 @@ h3:before {
 }
 iframe{
   width: 100%;
+}
+  .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 100%;
+    position: relative;
+  }
+
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+  }
+
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+
+  .owl-nav i {
+    font-size: 52px;
+  }
+
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+
+
+  .wrapp-cits-link{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    border:1px solid #ccc;
+    text-align: center;
+
+  }
+
+  .wrapp-cits-liner img{
+    height: 250px;
+    width: 100%;
+  }
+  .wrapp-cits-tem{
+    color: #F9BE37;
+  }
+ .mobile-city-slider{
+    display: none;
+  }
+
+.country-wrapp{
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .tours-col3{
+    display: none;
+  }
+  .tours-col9{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tour-show2{
+    margin-left:15px;
+  }
+  .mobile-city-slider{
+    display: block;
+  }
+  .country-wrapp{
+  display: none;
+}
+}
+@media screen and (max-width: 768px) {
+#appp img{
+  background-size: cover;
+  width: 0px;
+}
+
+.country-wrapp .header{
+  /*margin-top: -200px;*/
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.country-wrapp p{
+  background: transparent;
+}
+.content{
+  height: 200px;
+}
+.tab-wrap{
+   top: -40px;
+   margin-bottom: 150px;
+}
+footer{
+  line-height: 40px;
+}
+.ftco-footer-widget .block-23 .text{
+  text-align: center;
+  margin: 0 auto;
+}
+
+}
+@media screen and (max-width:576px){
+ 
+}
+
+@media screen and (max-width: 480px) {
+ .country-wrapp{
+ /*margin-top: -320px;*/
+}
+.tab-wrap{
+  width: 100%
+   top: -240px;
+   margin-bottom: 150px;
+}
 }
