@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>icon</title>
+	<link rel="stylesheet" type="text/css" href="https://codepen.io/Mamboleoo/pen/XgBvrJ">
+	<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  	<link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  	<link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css">
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		.middle{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			text-align: center;
+		}
+		.btnn{
+			display: inline-block;
+			width: 90px;
+			height: 90px;
+			background: #f1f1f1;
+			margin: 10px;
+			border-radius: 30%;
+			box-shadow: 0px 5px 15px -5px #00000070;
+			color: #3498db;
+			overflow: hidden;
+			position: relative;
+		}
+		.btnn i{
+			line-height: 90px;
+			font-size: 26px;
+			transition: 0.2s linear;
+		}
+		.btnn:hover i{
+			transform: scale(1.3);
+			color:#f1f1f1; 
+		}
+		.btnn::before{
+			content: " ";
+			position: absolute;
+			width: 120%; 
+			height:120%;
+			background: #3498db;
+			transform: rotate(45deg);
+			left: -110%;
+			top: 90%;
+		}
+		.btnn:hover::before{
+			animation: aaa 0.7s 1;
+			top: -10%;
+			left: -10%;
+		}
+		@keyframes aaa{
+			0%{ 
+				left: -110%;
+				top: 90%;
+			}
+			50%{
+				left: 10%;
+				top: -30%;
+			}
+			100%{
+				top: -10%;
+				left: -10%;
+			}
+		}
+	</style>
+</head>
+<body>
+ <div class="middle">
+ 	  	   <a class="btnn" href="#"><i class="fa fa-twitter"></i></a>
+           <a class="btnn" href="#"><i class="fa fa-facebook"></i></a>
+           <a class="btnn" href="#"><i class="fa fa-instagram"></i></a>
+           <a class="btnn" href="#"><i class="fa fa-telegram"></i></a>
+           <a class="btnn" href="#"><i class="fa fa-youtube"></i></a>
+ </div>
+</body>
+</html>

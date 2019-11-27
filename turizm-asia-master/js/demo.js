@@ -33,7 +33,7 @@
     // Options for texts
     var textOptions = {
         color: 'white',
-        backgroundColor: '#5104ab',
+        backgroundColor: 'rgba(81,4,171,0.6)',
         fontSize: function() { return windowWidth > 720 ? 50 : 30; },
         padding: '15 20 10 20',
         angle: -45,
@@ -51,7 +51,7 @@
     // Options for numbers
     var numberOptions = {
         color: 'white',
-        backgroundColor: '#5104ab',
+        backgroundColor: 'rgba(81,4,171,0.6)',
         fontSize: function() { return windowWidth > 720 ? 60 : 20; },
         padding: function() { return windowWidth > 720 ? '18 35 10 38' : '18 25 10 28'; },
         angle: 0,

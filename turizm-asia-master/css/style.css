@@ -301,15 +301,16 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6,
+/*h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit; }
+  color: inherit; 
+}*/
 
-h1, .h1 {
+/*h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
@@ -325,7 +326,7 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 1rem; }*/
 
 .lead {
   font-size: 1.25rem;
@@ -7250,14 +7251,14 @@ a.text-dark:hover, a.text-dark:focus {
   tr,
   img {
     page-break-inside: avoid; }
-  p,
+  /*p,
   h2,
   h3 {
     orphans: 3;
-    widows: 3; }
-  h2,
+    widows: 3; }*/
+  /*h2,
   h3 {
-    page-break-after: avoid; }
+    page-break-after: avoid; }*/
   @page {
     size: a3; }
   body {
@@ -9210,12 +9211,14 @@ footer{
 
 .search-form {
   background: #f2f2f2;
-  padding: 10px; }
+  padding: 10px; 
+}
   .search-form .form-group {
     position: relative; }
     .search-form .form-group input {
-      padding-right: 50px;
-      font-size: 14px; }
+      padding-right: 0px;
+      font-size: 14px; 
+    }
   .search-form .icon {
     position: absolute;
     top: 50%;
@@ -9241,7 +9244,8 @@ footer{
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
-    border-radius: 30px; }
+    border-radius: 30px;
+}
     .subscribe-form .form-group input::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: rgba(255, 255, 255, 0.7) !important; }
